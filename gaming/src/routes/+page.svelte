@@ -7,6 +7,9 @@
 </script>
 
 <main>
+    <a href="/about">About</a>
+    <a href="/guides">Guides</a>
+
 	<div class="index">
 		<h2>{title}</h2>
 		<p>
