@@ -1,17 +1,10 @@
 <script>
-    let title = 'New Title for Gaming';
-
-    const changeTitle = () => {
-        title = 'Title Changed';
-    }
+	import Title from "$lib/Title.svelte";
 </script>
 
 <main>
-    <a href="/about">About</a>
-    <a href="/guides">Guides</a>
-
+    <Title title="Svelte Gaming - Home" />
 	<div class="index">
-		<h2>{title}</h2>
 		<p>
 			Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe eum nesciunt provident minus
 			dicta ad itaque aperiam odit fuga architecto quos enim tenetur voluptatem beatae quod cumque
@@ -19,15 +12,14 @@
 			veniam suscipit rerum laboriosam, distinctio tenetur. Ex quia expedita temporibus nihil eos?
 		</p>
 
-        <button on:click={changeTitle}>Change Title</button>
-        <input type="text" bind:value={title}>
+		<!-- <button on:click={changeTitle}>Change Title</button> -->
+		<!-- <input type="text" bind:value={title}> -->
 	</div>
 </main>
 
 <style>
-    .index {
-        display: block;
-        text-align: center;
-        margin: 20px auto;
-    }
+	.index {
+		display: block;
+		margin: 20px auto;
+	}
 </style>

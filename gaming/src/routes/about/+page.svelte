@@ -1,9 +1,11 @@
+<script>
+	import Title from "$lib/Title.svelte";
+</script>
+
 <main>
-	<a href="/">Home</a>
-	<a href="/guides">Guides</a>
-    
+    <Title title="Svelte Gaming - About" />   
+	
 	<div class="about">
-		<h2>About Us</h2>
 		<p>
 			Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita officia a tempore ducimus
 			quidem, distinctio rem nihil neque asperiores, eius excepturi nostrum obcaecati laudantium
@@ -18,7 +20,6 @@
 <style>
     .about {
         display: block;
-        text-align: center;
         margin: 20px auto;
     }
 </style>
