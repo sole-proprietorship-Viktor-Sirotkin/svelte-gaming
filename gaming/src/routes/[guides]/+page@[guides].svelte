@@ -14,4 +14,16 @@
 </main>
 
 <style>
+	h2 {
+		text-align: center;
+		color: aquamarine;
+	}
+	ul {
+		display: block;
+		gap: 10px;
+		list-style-type: none;
+	}
+	li {
+		color: aqua;
+	}
 </style>
